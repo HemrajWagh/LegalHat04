@@ -10,6 +10,9 @@
                 margin:0,
                 responsiveClass:true,
                 nav:false,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true,
                 responsive:{
                     0:{
                         items:1,
@@ -27,6 +30,35 @@
                 }
             }
         );
+
+            $(".owl-carousel3").owlCarousel(
+                {
+                    
+                    loop:true,
+                    center: true,
+                    margin:0,
+                    responsiveClass:true,
+                    nav:false,
+                    autoplay:true,
+                    autoplayTimeout:1000,
+                    autoplayHoverPause:true,
+                    responsive:{
+                        0:{
+                            items:1,
+                            nav:false
+                        },
+                        600:{
+                            items:1,
+                            nav:false
+                        },
+                        1000:{
+                            items:3,
+                            nav:true,
+                            loop:false
+                        }
+                    }
+                }
+            );
 
         $(".owl-carousel2").owlCarousel(
             {

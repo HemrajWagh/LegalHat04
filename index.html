@@ -805,60 +805,80 @@ html {
                 </style>
 
                 <style type="text/css">
-                    /* Style the tab */
-                    .tab {
-                      float: left;
-                      border: 1px solid #ccc;
-                      background-color: #f1f1f1;
-                      width: 30%;
-                      height: 300px;
-                  }
+                    #header {
+                      position: fixed;
+                      top: 0;
+                      left: 0;
+                      right: 0;
+                      z-index: 999;
+                      background-color: #fff;
+                    }
 
-                  /* Style the buttons inside the tab */
-                  .tab button {
-                      display: block;
-                      background-color: inherit;
-                      color: black;
-                      padding: 22px 16px;
-                      width: 100%;
-                      border: none;
-                      outline: none;
-                      text-align: left;
-                      cursor: pointer;
-                      transition: 0.3s;
-                      font-size: 17px;
-                  }
+                    #navbar {
+                      display: flex;
+                      align-items: center;
+                      justify-content: space-between;
+                      height: 50px;
+                      background-color: #fff;
+                      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                    }
 
-                  /* Change background color of buttons on hover */
-                  .tab button:hover {
-                      background-color: #ddd;
-                  }
+                    #navbar ul {
+                      display: flex;
+                      list-style: none;
+                      margin: 0;
+                      padding: 0;
+                    }
 
-                  /* Create an active/current "tab button" class */
-                  .tab button.active {
-                      background-color: #ccc;
-                  }
+                    #navbar li {
+                      margin: 0 10px;
+                    }
 
-                  /* Style the tab content */
-                  .tabcontent {
-                      float: left;
-                      padding: 0px 12px;
-                      border: 1px solid #ccc;
-                      width: 70%;
-                      border-left: none;
-                      height: 300px;
-                  }
-              </style>
-          </style>
+                    #navbar a {
+                      color: #333;
+                      text-decoration: none;
+                      font-size: 14px;
+                    }
 
+                    #navbar a:hover {
+                      color: #00b8d4;
+                    }
+
+                    #navbar .logo {
+                      font-size: 18px;
+                      font-weight: bold;
+                    }
+
+                    #menu-btn {
+                      display: none;
+                      background}
+
+                      .sticky {
+                        background-color: #fff;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                      }
+
+
+                </style>
       </head>
-
+      
       <body>
+
+<header id="header">
+  <nav id="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
         <div class="navbar">
             <div class="navbar-inner">
                 <div class="container">
                     <a href="#" class="brand">
-                        <img src="images/logo.jpeg" width="120" height="40" alt="Logo" />
+                        <img src="images/logo.jpeg" style="float: none;" width="120" height="40" alt="Logo" />
                         <!-- This is website logo -->
                     </a>
                     <!-- Navigation button, visible on small resolution -->
@@ -866,7 +886,7 @@ html {
                         <i class="icon-menu"></i>
                     </button>
                     <!-- Main navigation -->
-                    <div class="nav-collapse collapse pull-right">
+                    <div class="nav-collapse pull-right         ">
                         <ul class="nav" id="top-navigation">
                             <li class="active nav-item"><a class="nav-link active" href="#home">Home</a></li>
                             <li class="nav-item"><a class="nav-link active" href="#service">Services</a></li>
@@ -1411,7 +1431,7 @@ standards add value to all types of business operations.</p>
                                 </div>
                             </div>
                             <div class="card text-center">
-                                <div class="oval"><img class="card-img-top" src="images1/isoRg.png" alt=""></div>
+                                <div class="oval"><img class="card-img-top" src="images1/companies.png" alt=""></div>
                                 <div class="card-body">
                                     <h3 class="card-title">FORMATION OF COMPANIES</h3>
                                     <p class="card-text">Company formation is the term for the process of
@@ -1421,7 +1441,7 @@ incorporation of a business.</p>
                         </div>
                         <div class="col">
                             <div class="card text-center">
-                                <div class="oval"><img class="card-img-top" src="images1/isoRg.png" alt=""></div>
+                                <div class="oval"><img class="card-img-top" src="images1/web.png" alt=""></div>
                                 <div class="card-body">
                                     <h3 class="card-title">WEB SERVICES</h3>
                                     <p class="card-text">A Web service is a method of communication between
@@ -1431,7 +1451,7 @@ up of a entrepreneurship.</p>
                                 </div>
                             </div>
                             <div class="card text-center">
-                                <div class="oval"><img class="card-img-top" src="images1/isoRg.png" alt=""></div>
+                                <div class="oval"><img class="card-img-top" src="images1/brand.png" alt=""></div>
                                 <div class="card-body">
                                     <h3 class="card-title">BRANDING SERVICES</h3>
                                     <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
@@ -1508,7 +1528,60 @@ up of a entrepreneurship.</p>
 
 
 
-    <br><br><br><br><br><br>
+
+    <div class="container-fluid gtco-testimonials">
+        <div class="container">
+            <h2>WE ARE <br> ASSOCIATED WITH     </h2>
+            <div class="owl-carousel owl-carousel3 owl-theme">
+                <div>
+                    <div class="card text-center">
+                        <img class="card-img-top" src="images1/logo1.jpeg" alt="">
+                        <div class="card-body">
+                            <h5>Partnering for success <br/>
+                                <!-- <span> Director Dynamic Enterprises </span></h5>
+                                <p class="card-text">“ Very professional and responsible. Excellent problem solvers, and a great guide for the first timers in this field. Brilliant team of consultants & legal professionals. Very prompt and helpful in responses. ” </p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card text-center">
+                            <img class="card-img-top" src="images1/logo2.jpeg" alt="">
+                            <div class="card-body">
+                                <h5>Together, achieving more<br/>
+                                    <!-- <span> Director V. R. Marketers </span></h5>
+                                    <p class="card-text">“ LegalHat has executed numerous successful projects for us. Team's professionalism, technical knowhow & quality sets them apart from many other service providers. We would definitely recommend LegalHat as a preferred long term partner for any requirements in registration field ” </p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <img class="card-img-top" src="images1/logo3.jpeg" alt="">
+                                <div class="card-body">
+                                    <h5>Connecting for growth<br/>
+                                        <!-- <span> Director Markets & Markets </span></h5>
+                                        <p class="card-text">“ LegalHat has helped us to register our brands, domain names and ensured maximum protection for our brand names in the market. We are exceptionally happy with LegalHat professionalism; responsiveness & attention to the needs of our surveying firm. We highly recommend LegalHat services to all who seek a superbly visible & professional looking protecting,registering & promoting entrepreneurship in the market. ” </p> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="images1/logo4.jpeg" alt="">
+                                    <div class="card-body">
+                                        <h5>Stronger together<br/>
+                                            <!-- <span> M D Rural Development Agency </span></h5>
+                                            <p class="card-text">“ Your commitment to high quality work & client satisfaction was clearly demonstrated during our work together on our website. Your expertise,accessibility and client servicing standards all contributed in making this process smooth & stress free. Your willingness to experiment with different ideas and your genuine desire to push for the best possible output was particularly appreciated. We look forward to a continued association. Wishing you all the best ” </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+    <br><br><br>
     <div class="section primary-section" id="service">
         <div class="container">
             <!-- Start title section -->
@@ -1537,8 +1610,7 @@ up of a entrepreneurship.</p>
                             <!-- <div class="oval"><img class="card-img-top" src="images1/isoRg.png" alt=""></div> -->
                             <div class="card-body">
                                 <h3 class="card-title">TRADEMARK REGISTRATION</h3>
-                                <h6 class="card-title">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                    eget.</h6>
+                                <h6 class="card-title">"Don't let someone else steal your shine - register your trademark today !"</h6>
                                
                             </div>
                         </div>
@@ -1549,8 +1621,7 @@ up of a entrepreneurship.</p>
                           <!-- <a href="#" target="_blank" style="text-decoration: none;" rel="noopener"> -->
                             <div class="card-body">
                                 <h3 class="card-title">COPYRIGHT REGISTRATION</h3>
-                                <h6 class="card-title">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                    eget.</h6>  
+                                <h6 class="card-title">"Protect your creations,Secure your rights, register your copyright."</h6>  
                             </div>
                             <!-- <h5 class="txtshadow zoom-in">TRADEMARK REGISTRATION</h5>
                             <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
@@ -1564,8 +1635,7 @@ up of a entrepreneurship.</p>
                     <div class="card11 text-center" >
                         <div class="card-body">
                             <h3 class="card-title">DESIGN REGISTRATION</h3>
-                            <h6 class="card-title">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                eget.</h6>  
+                            <h6 class="card-title">"Safeguard your intellectual property, register your designs."</h6>  
                         </div>           
                     </div>
                 </div>
@@ -1575,8 +1645,7 @@ up of a entrepreneurship.</p>
                 <div class="card11 text-center" >
                     <div class="card-body">
                         <h3 class="card-title">PATENT REGISTRATION</h3>
-                        <h6 class="card-title">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                            eget.</h6>  
+                        <h6 class="card-title">"Protect your inventions, register your patent"</h6>  
                     </div>           
                 </div>                        
             </div>
@@ -1585,8 +1654,7 @@ up of a entrepreneurship.</p>
                 <div class="card11 text-center" >
                     <div class="card-body">
                         <h3 class="card-title">ISO REGISTRATION</h3>
-                        <h6 class="card-title">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                            eget.</h6>  
+                        <h6 class="card-title">"ISO registration: a sign of quality and excellence"</h6>  
                     </div>           
                 </div>  
             </div>
@@ -1595,8 +1663,7 @@ up of a entrepreneurship.</p>
                 <div class="card11 text-center" >
                     <div class="card-body">
                         <h3 class="card-title">WEB SERVICES</h3>
-                        <h6 class="card-title">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                                            eget.</h6>  
+                        <h6 class="card-title">"The web, made easy with our services"</h6>  
                     </div>           
                 </div>  
             </div>
@@ -1605,8 +1672,7 @@ up of a entrepreneurship.</p>
             <div class="card11 text-center" >
                 <div class="card-body">
                     <h3 class="card-title">FORMATION OF COMPANIES</h3>
-                    <h6 class="card-title">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                                        eget.</h6>  
+                    <h6 class="card-title">"Starting a business? Let us handle the details."</h6>  
                 </div>           
             </div> 
             </div>
@@ -1614,8 +1680,7 @@ up of a entrepreneurship.</p>
             <div class="card11 text-center" >
                 <div class="card-body">
                     <h3 class="card-title">BRANDING SERVICES</h3>
-                    <h6 class="card-title">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                                                        eget.</h6>  
+                    <h6 class="card-title">"Let us help you tell your brand's story."</h6>  
                 </div>           
             </div> 
             </div>
@@ -2599,10 +2664,7 @@ up of a entrepreneurship.</p>
              </div>
          </div>                   
 
-
-
-
-
+   <br> <br>    
                             <div class="container-fluid gtco-testimonials">
                                 <div class="container">
                                     <h2>What our customers say about us.</h2>
@@ -2699,6 +2761,8 @@ up of a entrepreneurship.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
+
+
                                                         <div class="container-fluid gtco-features-list">
                                                             <div class="container">
                                                                 <h2 style="text-align: center;font-size: 36px;
@@ -2758,17 +2822,28 @@ up of a entrepreneurship.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
+
+
+
+
                                                         <div class="container-fluid gtco-logo-area">
                                                             <div class="container">
+                                                                <h2 style="text-align: center;font-size: 36px;
+                                                                font-weight: 900!important;
+                                                                position: relative;
+                                                                margin-bottom: 30px;
+                                                                text-transform: uppercase;">Our Associate Partner</h2>
                                                                 <div class="row">
-                                                                    <div class="col"><img src="images1/logo1.png" class="img-fluid" alt=""></div>
-                                                                    <div class="col"><img src="images1/logo2.png" class="img-fluid" alt=""></div>
-                                                                    <div class="col"><img src="images1/logo3.png" class="img-fluid" alt=""></div>
-                                                                    <div class="col"><img src="images1/logo4.png" class="img-fluid" alt=""></div>
+                                                                    <div class="col"><img src="images1/logo1.jpeg" class="img-fluid" alt=""></div>
+                                                                    <div class="col"><img src="images1/logo2.jpeg" class="img-fluid" alt=""></div>
+                                                                    <div class="col"><img src="images1/logo3.jpeg" class="img-fluid" alt=""></div>
+                                                                    <div class="col"><img src="images1/logo4.jpeg" class="img-fluid" alt=""></div>
                                                                     <div class="col"><img src="images1/logo5.png" class="img-fluid" alt=""></div>
                                                                 </div>
                                                             </div>
                                                         </div>
+
+
                                                         <div class="container-fluid gtco-news" id="news">
                                                             <div class="container">
                                                                 <h2>Latest News & Articles | In The Media</h2>
@@ -2776,23 +2851,20 @@ up of a entrepreneurship.</p>
                                                                     <div>
                                                                         <div class="card text-center"><img class="card-img-top" src="images1/news1.jpg" alt="">
                                                                             <div class="card-body text-left pr-0 pl-0">
-                                                                                <h5>Aenean ultrices lorem quis blandit
-                                                                                tempor urabitur accumsan. </h5>
-                                                                                <p class="card-text">Donec non sem mi. In hac habitasse platea dictumst. Nullam a feugiat augue,
-                                                                                    et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus risus
+                                                                                <h5>Online retail giant Amazon could be held responsible for breaching luxury shoemaker Christian Louboutin's trademark rights </h5>
+                                                                                <p class="card-text">Online retail giant Amazon could be held responsible for breaching luxury shoemaker Christian Louboutin's trademark rights over the sale of counterfeit red soled high-heeled shoes on its platform, the European Court of Justice ruled on Thursday.
                                                                                 . . . </p>
-                                                                                <a href="#">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+                                                                                <a href="https://economictimes.indiatimes.com/tech/technology/amazon-may-breach-trademark-rights-over-fake-louboutin-ads/articleshow/96432654.cms?from=mdr">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
                                                                             </div>
                                                                         </div>
                                                                         <div>
                                                                             <div class="card text-center"><img class="card-img-top" src="images1/news2.jpg" alt="">
                                                                                 <div class="card-body text-left pr-0 pl-0">
-                                                                                    <h5> Nam vel nisi eget odio pulvinar
-                                                                                    iaculis. Fusce aliquet. </h5>
-                                                                                    <p class="card-text">Donec non sem mi. In hac habitasse platea dictumst. Nullam a feugiat augue,
-                                                                                        et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus risus
+                                                                                    <h5> What Tips-Wynk legal row, invoking Section 31D of Indian Copyright Act, means for music fans. </h5>
+                                                                                    <p class="card-text">
+Tips, which owns the rights to many popular 1990s Hindi film soundtracks such as Khalnayak, Raja Hindustani and Taal, had sued Wynk for infringing its copyright, by continuing to stream its music in the absence of an agreement. If that sounds vaguely familiar, it’s because it’s the same reason Warner/Chappell took Spotify to court.
                                                                                     . . . </p>
-                                                                                    <a href="#">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+                                                                                    <a href="https://www.firstpost.com/entertainment/what-tips-wynk-legal-row-invoking-section-31d-of-indian-copyright-act-means-for-music-fans-6695491.html">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
                                                                                 </div>
                                                                             </div>
                                                                             <div>
@@ -3387,6 +3459,23 @@ up of a entrepreneurship.</p>
          <script src="owl-carousel/owl.carousel.min.js"></script>
          <script src="js1/bootstrap.min.js"></script>
          <script src="js1/main.js"></script>
+
+         <script>window.onscroll = function() {
+  stickyHeader();
+};
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+function stickyHeader() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+</script>
          <!--  -->
      </body>
      </html>

@@ -404,7 +404,7 @@ p {
 
 .gtco-numbers-block {
   margin: 100px auto;
-  margin-top: 200px;
+/*  margin-top: 200px;*/
   color: #fff;
 }
 @media (max-width: 600px) {
@@ -517,7 +517,7 @@ p {
 
 .gtco-testimonials {
   position: relative;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 @media (max-width: 767px) {
   .gtco-testimonials {
@@ -529,7 +529,7 @@ p {
   font-size: 36px;
   text-align: center;
   color: #333333;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .gtco-testimonials .owl-stage-outer {
   padding-bottom: 30px;
@@ -565,13 +565,14 @@ p {
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.08);
   margin: 0 30px;
   padding: 0 20px;
-  border-radius: 50px;
+  border-radius: 5px 50px;
+  border: 1px solid #FECE1A;
 }
 .gtco-testimonials .card .card-img-top {
   max-width: 100px;
-  border-radius: 50%;
-  margin: 0 auto;
-  border: 5px solid #1d3ede;
+  border-radius: 5px 30px;
+  margin: 10px auto;
+  border: 5px solid #FECE1A;
   width: 100px;
   height: 100px;
 }
@@ -587,7 +588,7 @@ p {
   font-family: "OpenSans-Regular";
 }
 .gtco-testimonials .card p {
-  font-size: 18px;
+  font-size: 15px;
 }
 .gtco-testimonials .active {
   opacity: 0.5;
@@ -603,7 +604,7 @@ p {
   font-size: 20px;
 }
 .gtco-testimonials .center p {
-  font-size: 20px;
+  font-size: 15px;
 }
 .gtco-testimonials .center .card-img-top {
   max-width: 100%;
@@ -645,7 +646,7 @@ p {
   margin: 50px auto;
 }
 .gtco-logo-area .col .img-fluid {
-  max-height: 32px;
+  max-height: 82px;
 }
 @media (max-width: 600px) {
   .gtco-logo-area .col {
@@ -720,7 +721,10 @@ p {
 }
 
 #gtco-footer {
+  background: #1a1a1a;
+  padding-top: 50px;
   padding-bottom: 20px;
+  border-radius: 70px 70px 0px 0px;
 }
 #gtco-footer h4 {
   font-family: "Lato-Medium";
@@ -792,6 +796,27 @@ p {
   }
 }
 
+
+.scrollup {
+    text-align:center;
+    cursor:pointer;
+    vertical-align:middle;
+    width:39px;
+    height:39px;
+    border-radius:5px;
+    font-size:20px;
+    position:fixed;
+    bottom:30px;
+    right:20px;
+  border:1px solid #fff;
+    display:none;
+    background: #FECE1A;
+}
+.scrollup > a {
+    position:relative;
+    top:7px;
+    color:#fff;
+}
 
 
 .myCard{

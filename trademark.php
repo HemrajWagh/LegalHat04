@@ -1151,238 +1151,357 @@ html {
         <!-- Service section start -->
         
 
-        <div class="row">
-            <div class="container"  style="display:flex;">
-                <div class="col-lg-8 col-sm-12" >
-
-                 <div class="naccs">
-                    <div class="grid">
-                     <div class="gc gc--1-of-3">
-                        <div class="menu " style="">
-                            <div><span class="light"></span><span>TRADEMARK REGISTRATION</span></div>
-                            <div><span class="light"></span><span>IMPORTANCE OF TRADEMARK</span></div>
-                            <div><span class="light"></span><span>TRADEMARK REGISTRATION PROCEDURE</span></div>
-                           <!--  <div><a href="#topic1">TRADEMARK REGISTRATION</a></div>
-                           <div><a href="#topic2">MPORTANCE OF TRADEMARK</a></div>
-                           <div><a href="#topic3">TRADEMARK REGISTRATION PROCEDURE</a></div> -->
-                           <!-- <div><a href="#topic3">Trademark Registration</a></div>
-                           <div><a href="#topic3">Types of Trademarks </a></div>
-                           <div><a href="#topic4">Trademark Class</a></div>
-                           <div><a href="#topic5">Trademark Registration</a></div>
-                           <div><span class="light"></span><span>Trademark Registration Process</span></div>
-                           <div><span class="light"></span><span>Documents Required</span></div> -->
-                       </div>
-                   </div>
-                   <div class="gc gc--2-of-3">
-                    <ul class="nacc">
-                        <li class="active" id="topic1">
-                            <div id="topic1">
-                                <p>A trademark, trade mark, or trade-mark is a distinclive sign or indicator used by an individual business organization, or other legal entity to identify that the products or services o consumers wilh whieh the trademark appears originate from a unique source, designated for a speciic market, and is used to distinguish its products or services from those of other entities.
-                                </p>
-                                <p>    
-                                   A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements. There is also a range of non-conventional trademarks comprising marks which do not fall into these standard categories, such as those based on Color, smell, or sound.
-                               </p>
-                           </div>
-                       </li>
-                       <li id="topic2">
-                        <div id="topic2">
-                         <p>Trademark is denoted as your intellectual property as it adds fo your brand identity as its quife mandatory to have the Trademark Registration to create own brand identity in the market and to stop others who are misusing and creating confusion in the market by infringing your brand name. Your reputation is represented by your trade mark.
-                         </p>
-                         <p>
-                            Others may seek to use/copy your trade mark or something akin to your trade mark for their own use and thus take advantage of the reputation eamed by you in the market. Registration of your trade mark is the surest and quickest means of avoiding these circumstances. 
-                            <p>
-                               Furthermore, registration establishes yOur exclusive nights to use that trade mark for your goods or services.
-                           </p>
-                       </p>
-                   </div>
-               </li>
-               <li id="topic3">
-                <div>
-                 <p>The procedure for applying for Trademark Reglstration is as follows <br><br>
-                    <span>1. Search: A search is conducted at the Trade Mark Registry, Govt. Office to As certain whether the trademark to be applied for ls register-able or hot.</span>
-                    <br><br>
-                    <span>2. Application For Registration:-An application needs to be file prepare the complete applicalion doc and file the same. On submission, application number is received which is made availlable to you along with copy ofapplication.</span><br><br>
-
-                    <span>3. Official Objections, If Any: We need to reply to official objections raised under various sections of the Act.</span><br><br>
-
-                    <span>4. Publications and Registration: The mark is then published in the trademark jourmal and a certificate of registration is issued.</span><br><br>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-</div>
+        
 
 
 </div>
-<div class="col-lg-4 col-sm-6" id="contact"  >
- <footer class="container-fluid" id="gtco-footer">
-    <!-- <div class="container"> -->
-         <div class="row">
-             <div class="col-lg-12 col-sm-12" id="contact">
-                <br><br>
-                 <h4> Contact Us </h4>
-                 <input type="text" class="form-control" placeholder="Full Name">
-                 <input type="email" class="form-control" placeholder="Email Address">
-                 <textarea class="form-control" placeholder="Message"></textarea>
-                 <a href="#" class="submit-button">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-             </div>
-         </div>
-     <!-- </div>                             -->
- </footer>            
-</div>
+
 </div>
 </div>
 <br><br>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center wow zoomIn">
-                        <h1>Frequently Asked Questions</h1>
-                        <span></span>
-                        <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
+<style> .circle {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color: rgba(252,200,19,1);
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+  align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid rgba(252,200,19,1);
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+    border-top: 3px solid rgba(252,200,19,1);
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+    border: 3px solid rgba(252,200,19,1);
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+</style>
+<div class="row">  
+  <div class="container">
+    <div class="col-lg-12 col-sm-6"> 
+        <div class="">
+            <h2 class="pb-3 pt-2 border-bottom mb-5">TRADEMARK REGISTRATION PROCEDURE</h2>
+            <!--first section-->
+            <div class="row align-items-center how-it-works d-flex">
+              <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold">1</div>
+            </div>
+            <div class="col-6">
+                <h5>Search : </h5>
+                <p> A search is conducted at the Trade Mark Registry, Govt. Office to As certain whether the trademark to be applied for ls register-able or hot.
+                </p>
+            </div>
+        </div>
+        <!--path between 1-2-->
+        <div class="row timeline">
+          <div class="col-2">
+            <div class="corner top-right"></div>
+        </div>
+        <div class="col-8">
+            <hr/>
+        </div>
+        <div class="col-2">
+            <div class="corner left-bottom"></div>
+        </div>
+    </div>
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-6 text-right">
+        <h5>Application For Registration : </h5>
+        <p>An application needs to be file prepare the complete applicalion doc and file the same. On submission, application number is received which is made availlable to you along with copy ofapplication.</p>
+    </div>
+    <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">2</div>
+    </div>
+</div>
+<!--path between 2-3-->
+<div class="row timeline">
+  <div class="col-2">
+    <div class="corner right-bottom"></div>
+</div>
+<div class="col-8">
+    <hr/>
+</div>
+<div class="col-2">
+    <div class="corner top-left"></div>
+</div>
+</div>
+<!--third section-->
+<div class="row align-items-center how-it-works d-flex">
+  <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+    <div class="circle font-weight-bold">3</div>
+</div>
+<div class="col-6">
+    <h5> Official Objections, If Any : </h5>
+    <!-- <p>We need to reply to official objections raised under various sections of the Act.</p> -->
+</div>
+</div>
+
+
+<div class="row align-items-center how-it-works d-flex">
+
+  <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+    <div class="circle font-weight-bold">3</div>
+</div>
+<div class="col-6">
+                <!-- <h5>Search : </h5> -->
+                <p>We need to reply to official objections raised under various sections of the Act.</p>
+</div>
+</div>
+
+<!--path between 1-2-->
+<div class="row timeline">
+  <div class="col-2">
+    <div class="corner bottom top-right"></div>
+</div>
+<div class="col-8">
+    <hr/>
+</div>
+<div class="col-2">
+    <div class="corner left-bottom "></div>
+</div>
+</div>
+<!--second section-->
+
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-6 text-right">
+        <h5>Publications and Registration : </h5>
+        <p>The mark is then published in the trademark jourmal and a certificate of registration is issued.
+</p>
+    </div>
+    <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">4</div>
+    </div>
+</div>
+<!--path between 2-3-->
+<div class="row timeline">
+  <div class="col-2">
+    <div class="corner right-bottom"></div>
+</div>
+<div class="col-8">
+    <hr/>
+</div>
+<div class="col-2">
+    <div class="corner top-left"></div>
+</div>
+</div>
+<!--third section-->
+
+
+</div>
+</div>
+</div>
+</div>  
+
+<br><br><br>        
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="section-title text-center wow zoomIn">
+                <h1>Frequently Asked Questions</h1>
+                <span></span>
+                <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">               
+        <div class="col-md-12">
+            <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                What is Trademark?
+                            </a>
+                        </h4>                    
+
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion" data-parent="#accordion">
+                        <div class="panel-body">
+                            <p>The term ‘Trademark’ refers to the brand or logo which represents the business. It is a visual symbol of a signature, name, device, label, numerals or combination of colors used by the owner of the trademark for goods or services or any other articles of commerce. Moreover, it is meant to differentiate among the similar products or services originated from the different business. A trademark can be a word, wrapper, packaging labels or a tagline or a combination of these. For example Coca-Cola and Pepsi.
+                            </p>
+                        </div>
+                    </div>
+                </div>            
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" >
+                               Who can apply for the Trademark?
+                           </a>
+                       </h4>
+                   </div>
+                   <div id="collapseTwo" class="panel-collapse collapse"  data-parent="#accordion">
+                    <div class="panel-body">
+                        <p>Any Individual, Company, Proprietor or legal entity who can claim to be an owner of the Trademark can apply for it. The trademark Registration formalities can be done in 18 to 24 months after that you can start using the ‘TM’ symbol. Once your trademark registry is done and registration certificate is issued then you may use ® (registered symbol) next to your trademark. The validity of a registered trademark is for 10 years from the date of filing and that can be renewed from time to time. </p>
                     </div>
                 </div>
             </div>
-            <div class="row">               
-                <div class="col-md-12">
-                    <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        What is Trademark?
-                                    </a>
-                                </h4>                    
-
-                            </div>
-                            
-                            <div id="collapseOne" class="collapse show" data-parent="#accordion" data-parent="#accordion">
-                                <div class="panel-body">
-                                    <p>The term ‘Trademark’ refers to the brand or logo which represents the business. It is a visual symbol of a signature, name, device, label, numerals or combination of colors used by the owner of the trademark for goods or services or any other articles of commerce. Moreover, it is meant to differentiate among the similar products or services originated from the different business. A trademark can be a word, wrapper, packaging labels or a tagline or a combination of these. For example Coca-Cola and Pepsi.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>            
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" >
-                                       Who can apply for the Trademark?
-                                   </a>
-                               </h4>
-                           </div>
-                           <div id="collapseTwo" class="panel-collapse collapse"  data-parent="#accordion">
-                            <div class="panel-body">
-                                <p>Any Individual, Company, Proprietor or legal entity who can claim to be an owner of the Trademark can apply for it. The trademark Registration formalities can be done in 18 to 24 months after that you can start using the ‘TM’ symbol. Once your trademark registry is done and registration certificate is issued then you may use ® (registered symbol) next to your trademark. The validity of a registered trademark is for 10 years from the date of filing and that can be renewed from time to time. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree">
-                                    What are the types of Trademark?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion">
-                            <div class="panel-body">
-                                <p>There are several types of Trademark which are given below:
-                                </p>
-                                <p>
-                                    A name of a person or surname or predecessor in business or the signature of the person.
-                                    The coined word or an invented word or any dictionary words that are not being directly descriptive of the character.
-                                    Alphanumeric or letter or any combination thereof.
-                                    Image, symbol, monograms, 3-dimensional shapes etc
-                                    Sound marks in audio format
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFour">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour">
-                                    What are the functions of Trademark?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
-                            <div class="panel-body">
-                                <p>Following are the functions of Trademark </p>
-                                <p>It identifies the product or the services and its sources. </p>
-                                <p>It provides a guarantee for its quality </p>
-                                <p>It helps in advertising the products and services. </p>
-                                <p>Read more : Classes of Trademark Goods and Services </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFive">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFive">
-                                    What are the documents required for Trademark Registration?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
-                            <div class="panel-body">
-                                <p>Following are the documents which are required for the Trademark registration: </p>
-                                <p>Copy of Trademark or logo </p>
-                                <p>Applicant details like name, address, and nationality and for the company it requires the state of incorporation </p>
-                                <p>Goods or services to register </p>
-                                <p>Date of first use of the trademark in India. </p>
-                                <p>Power of attorney which is to be signed by the applicant. </p>
-                            </div>
-                        </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree">
+                            What are the types of Trademark?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion">
+                    <div class="panel-body">
+                        <p>There are several types of Trademark which are given below:
+                        </p>
+                        <p>
+                            A name of a person or surname or predecessor in business or the signature of the person.
+                            The coined word or an invented word or any dictionary words that are not being directly descriptive of the character.
+                            Alphanumeric or letter or any combination thereof.
+                            Image, symbol, monograms, 3-dimensional shapes etc
+                            Sound marks in audio format
+                        </p>
                     </div>
                 </div>
-            </div><!--- END COL -->     
-        </div><!--- END ROW -->        
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour">
+                            What are the functions of Trademark?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="panel-body">
+                        <p>Following are the functions of Trademark </p>
+                        <p>It identifies the product or the services and its sources. </p>
+                        <p>It provides a guarantee for its quality </p>
+                        <p>It helps in advertising the products and services. </p>
+                        <p>Read more : Classes of Trademark Goods and Services </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFive">
+                            What are the documents required for Trademark Registration?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="panel-body">
+                        <p>Following are the documents which are required for the Trademark registration: </p>
+                        <p>Copy of Trademark or logo </p>
+                        <p>Applicant details like name, address, and nationality and for the company it requires the state of incorporation </p>
+                        <p>Goods or services to register </p>
+                        <p>Date of first use of the trademark in India. </p>
+                        <p>Power of attorney which is to be signed by the applicant. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--- END COL -->     
+</div><!--- END ROW -->        
 
-    </div>
+</div>
 
 </div>
 
 
-<section id="about" class="about roomy-100">
+<div class="row">
+    <div class="container" style="display: flex;"      >
+        <div class="col-lg-6 ">
+            <ul class="accordian">
+                <li>
+                    <input type="radio" name="accordian" id="first" checked>
+                    <label for="first">Products</label>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                        </p>
+                    </div>
+                </li>
 
-    <div class="row">
-        <div class="container">
-            <div class="col-lg-12 col-sm-12">
-                <ul class="accordian">
-                    <li>
-                        <input type="radio" name="accordian" id="first" checked>
-                        <label for="first">Products</label>
-                        <div class="content">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <input type="radio" name="accordian" id="second">
-                        <label for="second">Products</label>
-                        <div class="content">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <input type="radio" name="accordian" id="third">
-                        <label for="third">Products</label>
-                        <div class="content">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                <li>
+                    <input type="radio" name="accordian" id="second">
+                    <label for="second">Products</label>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordian" id="third">
+                    <label for="third">Products</label>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-sm-12 "   >
+                <img src="images1/trademark-doc.webp "width="500"   alt="">
         </div>
     </div>
+</div>
 
+
+<section id="about" class="about roomy-100">
 
     <div class="container">
         <div class="row">    
@@ -1476,27 +1595,84 @@ html {
                                     </div> -->
                                     <!-- Footer section end -->
                                     <!-- ScrollUp button start -->
-                                    <div class="scrollup">
-                                        <a href="#">
-                                            <i class="icon-up-open"></i>
-                                        </a>
-                                    </div>
+
+                                    <footer class="container-fluid" id="gtco-footer">
+                                      <div class="container">
+                                          <div class="row">
+                                              <div class="col-lg-6" id="contact">
+                                                  <h4> Contact Us </h4>
+                                                  <input type="text" class="form-control" placeholder="Full Name">
+                                                  <input type="email" class="form-control" placeholder="Email Address">
+                                                  <textarea class="form-control" placeholder="Message"></textarea>
+                                                  <a href="#" class="submit-button">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                              </div>
+                                              <div class="col-lg-6">
+                                                  <div class="row">
+                                                      <div class="col-6">
+                                                          <h4>Company</h4>
+                                                          <ul class="nav flex-column company-nav">
+                                                              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                                                              <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                                                              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                                                              <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                                                              <li class="nav-item"><a class="nav-link" href="#">FAQ's</a></li>
+                                                              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                                                          </ul>
+                                                          <h4 class="mt-5">Fllow Us</h4>
+                                                          <ul class="nav follow-us-nav">
+                                                              <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook"
+                                                                aria-hidden="true"></i></a></li>
+                                                                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"
+                                                                   aria-hidden="true"></i></a></li>
+                                                                   <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-google"
+                                                                       aria-hidden="true"></i></a></li>
+                                                                       <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"
+                                                                           aria-hidden="true"></i></a></li>
+                                                                       </ul>
+                                                                   </div>
+                                                                   <div class="col-6">
+                                                                      <h4>Services</h4>
+                                                                      <ul class="nav flex-column services-nav">
+                                                                          <li class="nav-item"><a class="nav-link" href="#">Trademark Registration</a></li>
+                                                                          <li class="nav-item"><a class="nav-link" href="#">Copyright Registration</a></li>
+                                                                          <li class="nav-item"><a class="nav-link" href="#">Design Registration</a></li>
+                                                                          <li class="nav-item"><a class="nav-link" href="#">Patent Registration</a></li>
+                                                                          <li class="nav-item"><a class="nav-link" href="#">ISO Registration</a></li>
+                                                                          <li class="nav-item"><a class="nav-link" href="#">Formation OF Company</a></li>
+                                                                          <li class="nav-item"><a class="nav-link" href="#">Web Servieces</a></li>
+                                                                          <li class="nav-item"><a class="nav-link" href="#">Branding Services</a></li>
+                                                                          <li class="nav-item"><a class="nav-link" href="#">Other Registration Services</a></li>
+                                                                      </ul>
+                                                                  </div>
+                                                                  <div class="col-12">
+                                                                      <p>&copy; 2023. All Rights Reserved.</p>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </footer>                           
+                                              <div class="scrollup">
+                                                <a href="#">
+                                                    <i class="icon-up-open"></i>
+                                                </a>
+                                            </div>
 
 
 
-                                    <!-- ScrollUp button end -->
-                                    <!-- Include javascript -->
-                                    <script src="js/jquery.js"></script>
-                                    <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-                                    <script type="text/javascript" src="js/bootstrap.js"></script>
-                                    <script type="text/javascript" src="js/modernizr.custom.js"></script>
-                                    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
-                                    <script type="text/javascript" src="js/jquery.cslider.js"></script>
-                                    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-                                    <script type="text/javascript" src="js/jquery.inview.js"></script>
-                                    <!-- Load google maps api and call initializeMap function defined in app.js -->
-                                    <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
-                                    <!-- css3-mediaqueries.js for IE8 or older -->
+                                            <!-- ScrollUp button end -->
+                                            <!-- Include javascript -->
+                                            <script src="js/jquery.js"></script>
+                                            <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+                                            <script type="text/javascript" src="js/bootstrap.js"></script>
+                                            <script type="text/javascript" src="js/modernizr.custom.js"></script>
+                                            <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+                                            <script type="text/javascript" src="js/jquery.cslider.js"></script>
+                                            <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+                                            <script type="text/javascript" src="js/jquery.inview.js"></script>
+                                            <!-- Load google maps api and call initializeMap function defined in app.js -->
+                                            <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
+                                            <!-- css3-mediaqueries.js for IE8 or older -->
                 <!--[if lt IE 9]>
                     <script src="js/respond.min.js"></script>
                 <![endif]-->
