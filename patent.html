@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"/>
 
 
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
         <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
@@ -233,13 +233,13 @@ $third-color: #FBC02D;
 $site: #303F9F;
 $light: #fff;
 
-body {
+/*body {
    position: relative;
    font-family: 'Oswald', sans-serif;
    background: $site;
    color: $light;
    font-size: 20px;
-}
+}*/
 
 .grid {
    list-style: none;
@@ -858,8 +858,21 @@ html {
                         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
                       }
 
-
                 </style>
+
+            <style type="text/css">
+                .float-bob-x {
+                    -webkit-animation-name: float-bob-x;
+                    /* animation-name: float-bob-x; */
+                    -webkit-animation-duration: 2s;
+                    /* animation-duration: 2s; */
+                    -webkit-animation-iteration-count: infinite;
+                    /* animation-iteration-count: infinite; */
+                    -webkit-animation-timing-function: linear;
+                    animation-timing-function: linear;
+                }
+            </style>
+
       </head>
       
       <body>
@@ -1166,15 +1179,446 @@ html {
     </div>
     <!-- End home section -->
     <!-- Service section start -->
+
+<style type="text/css">.design-process-section .text-align-center {
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+.design-process-content {
+    border: 1px solid #e9e9e9;
+    position: relative;
+    padding: 16px 34% 30px 30px;
+}
+.design-process-content img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    max-height: 100%;
+}
+.design-process-content h3 {
+    margin-bottom: 16px;
+}
+.design-process-content p {
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+.process-model {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto 26px;
+    border: none;
+    z-index: 0;
+}
+.process-model li::after {
+    background: #e5e5e5 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    margin: 0 auto;
+    position: absolute;
+    right: -30px;
+    top: 33px;
+    width: 85%;
+    z-index: -1;
+}
+.process-model li.visited::after {
+    background: #57b87b;
+}
+.process-model li:last-child::after {
+    width: 0;
+}
+.process-model li {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    float: none;
+}
+.nav-tabs.process-model > li.active > a, .nav-tabs.process-model > li.active > a:hover, .nav-tabs.process-model > li.active > a:focus, .process-model li a:hover, .process-model li a:focus {
+    border: none;
+    background: transparent;
+
+}
+.process-model li a {
+    padding: 0;
+    border: none;
+    color: #606060;
+}
+.process-model li.active,
+.process-model li.visited {
+    color: #57b87b;
+}
+.process-model li.active a,
+.process-model li.active a:hover,
+.process-model li.active a:focus,
+.process-model li.visited a,
+.process-model li.visited a:hover,
+.process-model li.visited a:focus {
+    color: #57b87b;
+}
+.process-model li.active p,
+.process-model li.visited p {
+    font-weight: 600;
+}
+.process-model li i {
+    display: block;
+    height: 68px;
+    width: 68px;
+    text-align: center;
+    margin: 0 auto;
+    background: #f5f6f7;
+    border: 2px solid #e5e5e5;
+    line-height: 65px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.process-model li.active i, .process-model li.visited i  {
+    background: #fff;
+    border-color: #57b87b;
+}
+.process-model li p {
+    font-size: 14px;
+    margin-top: 11px;
+}
+.process-model.contact-us-tab li.visited a, .process-model.contact-us-tab li.visited p {
+    color: #606060!important;
+    font-weight: normal
+}
+.process-model.contact-us-tab li::after  {
+    display: none; 
+}
+.process-model.contact-us-tab li.visited i {
+    border-color: #e5e5e5; 
+}
+
+
+
+@media screen and (max-width: 560px) {
+  .more-icon-preocess.process-model li span {
+        font-size: 23px;
+        height: 50px;
+        line-height: 46px;
+        width: 50px;
+    }
+    .more-icon-preocess.process-model li::after {
+        top: 24px;
+    }
+}
+@media screen and (max-width: 380px) { 
+    .process-model.more-icon-preocess li {
+        width: 16%;
+    }
+    .more-icon-preocess.process-model li span {
+        font-size: 16px;
+        height: 35px;
+        line-height: 32px;
+        width: 35px;
+    }
+    .more-icon-preocess.process-model li p {
+        font-size: 8px;
+    }
+    .more-icon-preocess.process-model li::after {
+        top: 18px;
+    }
+    .process-model.more-icon-preocess {
+        text-align: center;
+    } 
+}</style>
+
+    <section class="design-process-section" id="process-tab">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12"> 
+            <!-- design process steps--> 
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
+              <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
+                <p>Discover</p>
+                </a></li>
+              <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab" data-target="#Strateg"><i class="fa fa-send-o" aria-hidden="true"></i>
+                <p>Strategy</p>
+                </a></li>
+              <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab" data-target="#optimizatio"><i class="fa fa-qrcode" aria-hidden="true"></i>
+                <p>Optimization</p>
+                </a></li>
+              <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab" data-target="#conten"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                <p>Content</p>
+                </a></li>
+              <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"data-target="#reportin"><i class="fa fa-clipboard" aria-hidden="true"></i>
+                <p>Reporting</p>
+                </a></li>
+            </ul>
+            <!-- end design process steps--> 
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="discove">
+                <div class="design-process-content">
+                  <h3 class="semi-bold">Discovery</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                 </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="Strateg">
+                <div class="design-process-content">
+                  <h3 class="semi-bold">Strategy</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                  </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="optimizatio">
+                <div class="design-process-content">
+                  <h3 class="semi-bold">Optimization</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                   </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="conten">
+                <div class="design-process-content">
+                  <h3 class="semi-bold">Content</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
+                  </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="reportin">
+                <div class="design-process-content">
+                  <h3>Reporting</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Oswald');
+
+    $base-color: #303F9F;
+    $second-color: #3F51B5;
+    $third-color: #FBC02D;
+    $site: #303F9F;
+    $light: #fff;
+
+    /*body {
+     position: relative;
+     font-family: 'Oswald', sans-serif;
+     background: $site;
+     color: $light;
+     font-size: 20px;
+    }*/
+
+    .grid {
+     list-style: none;
+     margin-left: -40px;
+    }
+
+    .gc {
+     box-sizing: border-box;
+     display: inline-block;
+     margin-right: -.25em;
+     min-height: 1px;
+     padding-left: 40px;
+     vertical-align: top;
+    }
+
+    .gc--1-of-3 {
+     width: 33.33333%;
+    }
+
+    .gc--2-of-3 {
+     width: 66.66666%;
+    }
+
+    .naccs {
+     position: relative;
+     max-width: 900px;
+     margin: 100px auto 0;
+    }
+
+    .naccs .menu div {
+     padding: 15px 20px 15px 40px;
+     margin-bottom: 10px;
+     color: $base-color;
+     background: $second-color;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+     cursor: pointer;
+     position: relative;
+     vertical-align: middle;
+     font-weight: 700;
+     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .naccs .menu div:hover {
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .naccs .menu div span.light {
+     height: 10px;
+     width: 10px;
+     position: absolute;
+     top: 24px;
+     left: 15px;
+     background-color: $base-color;
+     border-radius: 100%;
+     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .naccs .menu div.active span.light {
+     background-color: $third-color;
+     left: 0;
+     height: 100%;
+     width: 3px;
+     top: 0;
+     border-radius: 0;
+    }
+
+    .naccs .menu div.active {
+     color: $third-color;
+     padding: 15px 20px 15px 20px;
+    }
+
+    ul.nacc {
+     position: relative;
+     height: 0px;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    ul.nacc li {
+     opacity: 0;
+     transform: translateX(50px);
+     position: absolute;
+     list-style: none;
+     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    ul.nacc li.active {
+     transition-delay: .3s;
+     z-index: 2;
+     opacity: 1;
+     transform: translateX(0px);
+    }
+
+    ul.nacc li p {
+     margin: 0;
+    }
+
+</style>   
+
+<div class="naccs">
+  <div class="grid">
+   <div class="gc gc--1-of-3">
+    <div class="menu">
+     <div class="active"><span class="light"></span><span>Beer</span></div>
+     <div><span class="light"></span><span>Wine</span></div>
+     <div><span class="light"></span><span>Lemonade</span></div>
+    </div>
+   </div>
+   <div class="gc gc--2-of-3">
+    <ul class="nacc">
+     <li class="active">
+      <div>
+       <p>Beer is the world's oldest[1][2][3] and most widely consumed[4] alcoholic drink; it is the third most popular drink overall, after water and tea.[5] The production of beer is called brewing, which involves the fermentation of sugars, mainly derived
+        from cereal grain starches—most commonly from malted barley, although wheat, maize (corn), and rice are widely used.[6] Most beer is flavoured with hops, which add bitterness and act as a natural preservative, though other flavourings such as
+        herbs or fruit may occasionally be included. The fermentation process causes a natural carbonation effect, although this is often removed during processing, and replaced with forced carbonation.[7] Some of humanity's earliest known writings refer
+        to the production and distribution of beer: the Code of Hammurabi included laws regulating beer and beer parlours,[8] and "The Hymn to Ninkasi", a prayer to the Mesopotamian goddess of beer, served as both a prayer and as a method of remembering
+        the recipe for beer in a culture with few literate people.[9][10]</p>
+      </div>
+     </li>
+     <li>
+      <div>
+       <p>A vine (Latin vīnea "grapevine", "vineyard", from vīnum "wine") in the narrowest sense is the grapevine (Vitis), but more generally it can refer to any plant with a growth habit of trailing or scandent (that is, climbing) stems, lianas or runners.
+        The word also can refer to such stems or runners themselves, for instance when used in wicker work.[1][2] In the United Kingdom, the term "vine" applies almost exclusively to the grapevine. The term "climber" is used for all climbing plants.[3]</p>
+      </div>
+     </li>
+     <li>
+      <div>
+       <p>Lemonade is any of various sweetened beverages found around the world, all characterized by lemon flavor. Most lemonade varieties can be separated into two distinct types: cloudy and clear; each is known simply as "lemonade" (or a cognate) in countries
+        where dominant.[1] Cloudy lemonade, generally found in North America and India, is a traditionally homemade drink made with lemon juice, water, and sweetener such as cane sugar or honey.[2] Found in the United Kingdom, Ireland, South Africa, Australia,
+        and New Zealand, clear lemonade is a lemon flavoured carbonated soft drink. Not to be confused with Sprite a lemon-lime flavored, soft drink.</p>
+      </div>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </div>
+
+<style type="text/css">
+     .menu div {
+        padding: 15px 20px 15px 40px;
+        margin-bottom: 10px;
+        color: $base-color;
+        background: $second-color;
+        box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+        cursor: pointer;
+        position: relative;
+        vertical-align: middle;
+        font-weight: 700;
+        transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+     .menu div.active {
+            color: #FBC02D;;
+             padding: 15px 20px 15px 20px; 
+    }
+
+    .menu div:hover {
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+    .menu div span.light {
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        top: 24px;
+        left: 15px;
+        background-color: #303F9F;
+        border-radius: 100%;
+        transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }    
+     
+
+     .menu div.active span.light {
+        background-color: #FBC02D;
+        left: 0;
+        height: 100%;
+        width: 3px;
+        top: 0;
+        border-radius: 0;
+    }    
     
+
+</style>
+
 <div class="row">   
      <div class="container">    
-            <div class="col-lg-3"> 
-                <div class="menu">  
-                        
-                </div>  
+            <div class="col-lg-3 col-sm-6"> 
+                <div class="menu">
+                    <a href="#topic1">
+                    <div class="list"><span class="light"></span><span>Test1</span></div>
+                    </a>
+                    <div class="list"><span class="light"></span><span>Test1</span></div>
+                    <div class="list"><span class="light"></span><span>Test1</span></div>
+                    <div class="list"><span class="light"></span><span>Test1</span></div>
+                    <div class="list"><span class="light"></span><span>Test1</span></div>
+                    <div class="list"><span class="light"></span><span>Test1</span></div>
+                   <!--  <div class="list"><span class="light"><span>test1</span> </span></div>
+                    <div class="list"><span class="light"><span>test1</span> </span></div>
+                    <div class="list"><span class="light"><span>test1</span></span></div>
+                    <div class="list"><span class="light"><span>test1</span></span></div> -->
+                </div> 
              </div>
-            <div class="col-lg-6">  </div>
+            <div class="col-lg-6">
+                    <div id="topic1">
+                        <p>A vine (Latin vīnea "grapevine", "vineyard", from vīnum "wine") in the narrowest sense is the grapevine (Vitis), but more generally it can refer to any plant with a growth habit of trailing or scandent (that is, climbing) stems, lianas or runners.
+                         The word also can refer to such stems or runners themselves, for instance when used in wicker work.[1][2] In the United Kingdom, the term "vine" applies almost exclusively to the grapevine. The term "climber" is used for all climbing plants.[3]</p>
+                    </div>
+            </div>
             <div class="col-lg-3">  </div>
      </div>    
 </div>  
@@ -1629,6 +2073,42 @@ function stickyHeader() {
 }
 
 </script>
+
+<script type="text/javascript">
+// Acc
+$(document).on("click", ".naccs .menu div", function() {
+    var numberIndex = $(this).index();
+
+    if (!$(this).is("active")) {
+        $(".naccs .menu div").removeClass("active");
+        $(".naccs ul li").removeClass("active");
+
+        $(this).addClass("active");
+        $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+        var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+        $(".naccs ul").height(listItemHeight + "px");
+    }
+});
+</script>
+
+
+
+<script type="text/javascript">// script for tab steps
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+
+        var href = $(e.target).attr('href');
+        var $curr = $(".process-model  a[href='" + href + "']").parent();
+
+        $('.process-model li').removeClass();
+
+        $curr.addClass("active");
+        $curr.prevAll().addClass("visited");
+    });
+</script>
+
          <!--  -->
      </body>
      </html>

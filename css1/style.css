@@ -826,3 +826,36 @@ p {
   border-radius: 20px;
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.08);
 }
+
+
+
+
+#parallex{
+    height: 50vh;
+    /*background-color: red;*/
+   /*background-image:url(images/PST_Stories3_1500x1080.jpg);*/
+  background-attachment: fixed !important;
+  background-position: 70% 0;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+#parallex2{
+height: 85vh;
+/*opacity: .9;*/
+/*background-image: linear-gradient(rgba(12, 3, 51, 0.3),rgba(12, 3, 51, 0.3));*/
+    /*background-color: red;*/
+   /*background-image:url(images/PST_Stories3_1500x1080.jpg);*/
+  background-attachment: fixed !important;
+  background-position: 70% 0;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+@media(max-width: 420px)
+{
+    #parallex2{
+    height: 100vh;
+    }
+
+}

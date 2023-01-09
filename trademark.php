@@ -1231,7 +1231,7 @@ html {
   top: calc(50% - 3px);
 }
 </style>
-<div class="row">  
+<div class="row" >  
   <div class="container">
     <div class="col-lg-12 col-sm-6"> 
         <div class="">
@@ -1463,7 +1463,7 @@ html {
 </div>
 
 
-<div class="row">
+<!-- <div class="row">
     <div class="container" style="display: flex;"      >
         <div class="col-lg-6 ">
             <ul class="accordian">
@@ -1498,13 +1498,13 @@ html {
                 <img src="images1/trademark-doc.webp "width="500"   alt="">
         </div>
     </div>
-</div>
+</div> -->
 
-
-<section id="about" class="about roomy-100">
+<br><br>
+<section id="about" class="about roomy-100" style="background-image: url(images1/BK.jpg);">
 
     <div class="container">
-        <div class="row">    
+        <div class="row" >    
             <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
                 <!-- <h1>What We Do?</h1> -->
                 <!-- Section's title goes here -->
