@@ -26,7 +26,7 @@
         <!-- custom CSS -->
         <link rel="stylesheet" href="css1/style.css">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"/>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"/> -->
 
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
@@ -47,7 +47,7 @@
 
             <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
             <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
-<!--  -->
+            <!--  -->
             <!-- <link rel="stylesheet" href="css1/bootstrap.min.css"> -->
 
             <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -227,11 +227,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-$base-color: #303F9F;
-$second-color: #3F51B5;
-$third-color: #FBC02D;
-$site: #303F9F;
-$light: #fff;
 
 /*body {
    position: relative;
@@ -272,7 +267,7 @@ $light: #fff;
 .naccs .menu div {
    padding: 15px 20px 15px 40px;
    margin-bottom: 10px;
-   color: $base-color;
+   color: #000;
    background: $second-color;
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
    cursor: pointer;
@@ -461,20 +456,20 @@ html {
                             box-shadow: 0 10px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
                             transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
                             padding: 25px 25px ;
-                            margin: 20px;
-                            cursor: pointer;
-                        }
+/*                            margin: 20px;*/
+cursor: pointer;
+}
 
-                        .card11:hover{
-                           transform: scale(1.15);
-                           box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-                       }
+.card11:hover{
+   transform: scale(1.15);
+   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
 
-                       .card11 h3{
-                          display: flex;
-                          justify-content: center;
-                          align-content: center;
-                          align-items: center;
+.card11 h3{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 /*                          font-weight: 600;*/
 font-family: "Lato-Regular";
 font-size: 24px;
@@ -614,24 +609,12 @@ color: rgba(252,200,19,1);
 
 
                 <style type="text/css">
-                    :root {
-                        --red: hsl(0, 78%, 62%);
-                        --cyan: hsl(180, 62%, 55%);
-                        --orange: hsl(34, 97%, 64%);
-                        --blue: hsl(212, 86%, 64%);
-                        --varyDarkBlue: hsl(234, 12%, 34%);
-                        --grayishBlue: hsl(229, 6%, 66%);
-                        --veryLightGray: hsl(0, 0%, 98%);
-                        --weight1: 200;
-                        --weight2: 400;
-                        --weight3: 600;
-                    }
-
-                    body {
+                    
+                    /*body {
                         font-size: 15px;
                         font-family: 'Poppins', sans-serif;
                         background-color: var(--veryLightGray);
-                    }
+                    }*/
 
                     .attribution { 
                         font-size: 11px; text-align: center; 
@@ -681,9 +664,9 @@ color: rgba(252,200,19,1);
                         margin: 20px;  
                     }
 
-                    img {
+                    /*img {
                         float: right;
-                    }
+                    }*/
 
                     @media (max-width: 450px) {
                         .box {
@@ -744,12 +727,7 @@ color: rgba(252,200,19,1);
                     }
                 </style>     
                 <style>
-                    Edit in JSFiddle
-                    Result
-                    HTML
-                    CSS
-                    JavaScript
-                    Resources
+                  
                     /*
                     *
                     * ==========================================
@@ -1463,70 +1441,202 @@ color: rgba(252,200,19,1);
     <div class="col-lg-3 col-sm-6"> 
         <div class="menu" id="menu"style="position: sticky; top: 60px;" >
             <a href="#topic1" style="text-decoration: none;" >
-                <div class="list"><span class="light"></span><span>Patent</span></div>
+                <div class="list"><span class="light"></span><span>Required Document</span></div>
             </a>
             <a href="#topic2" style="text-decoration: none;">
-                <div class="list"><span class="light"></span><span>Importance Of Patent</span></div>
+                <div class="list"><span class="light"></span><span>Advantages</span></div>
             </a>
             <a href="#topic3" style="text-decoration: none;">
-                <div class="list"><span class="light"></span><span>Benefits Of Patent</span></div>
+                <div class="list"><span class="light"></span><span>Process</span></div>
             </a>
 
         </div> 
     </div>
     <div class="col-lg-6">
         <div id="topic1">
-            <h4>What is Patent ? </h4>
-            <p>Patent is a major part of Intellectual Property which grants its
-                inventor, the right of exploiting its object exclusively, during a given
-            time period.</p>
-            
-        </div>
+            <h4 style="text-align:center;">DOCUMENT REQUIRED </h4>
+            <br>
+            <div class="row"> 
+               <div class="container text-center">
+                  <div class="row align-items-center">
+                    <div class="col" >
+                        <div>
+                            <img src="images1/camera.png">
+                        </div>
+                        <h5>Passport Size Photograph</h5>
+                    </div>
+                    <div class="col" >
+                        <div>
+                            <img src="images1/pan-card.png">
+                        </div>
+                        <h5>PAN Card</h5>
+                    </div>
+                    <div class="col" >
+                       <div>
+                           <img src="images1/electricity-bill.png">
+                       </div>
+                       <h5>Copy of Electricity Bill</h5>
+                   </div>
+                   <div class="col" >
+                       <div>
+                           <img src="images1/Office-Proof.png">
+                       </div>
+                       <h5>Registered Office Proof</h5>
+                   </div>                         
+               </div>
+           </div>
+       </div>
+       <br>
+       <div class="row"> 
+           <div class="container text-center">
+              <div class="row align-items-center">
+                <div class="col" >
+                    <div>
+                        <img src="images1/Aadhaar-Card.png">
+                    </div>
+                    <h5>Copy of Aadhaar Card</h5>
+                </div>
+                <div class="col" >
+                    <div>
+                        <img src="images1/Address-Proof.png">
+                    </div>
+                    <h5>Address Proof</h5>
+                </div>
+                <div class="col" >
+                   <div>
+                       <img src="images1/Residential-Proof.png">
+                   </div>
+                   <h5>Residential Proof</h5>
+               </div>
+               <div class="col" >
+                   <div>
+                       <img src="images1/noc.png">
+                   </div>
+                   <h5>No Objection Certificate</h5>
+               </div>                         
+           </div>
+       </div>
+   </div>
+</div>   
+<br><br><br>
 
-        <div id="topic2">
-            <h4>Importance Of Patent</h4>
-            <p>It helps in stimulating the development of new technologies and
-                also guarantees the investor's exploitation rights. It also promotes
-                new era and various modifications required in the existing systems
-            and process.</p>
-            <p>The patent provides the user exclusive rights over his
-                object; and this right is ultimately incorporated to the assets of a
-                company. It is really helpful to the company for defining market
-            strategies needed to hit the public target.</p>
-            <p>However, patent rights
-                are granted, only on the fulfillment of some requirements such as:
-                Industrial applicability, inventive act and novelty with regard to the
-            technological knowledge already disclosed.</p><p>Due to the creative
-                efforts in the technical field, the inventor who opts for Patent
-                Registration also holds the temporary exploitation monopoly of his
-            creation; which ultimately guarantees him a sort of market reserve.</p>
-        </div><div id="topic3">
-            <h4>Benefits Of Patent</h4>
-            <p>● A patent gives you the right to stop others from copying,
-                manufacturing, selling, and importing your invention without your
-                permission. The existence of your patent may be enough on its
-                own to stop others from trying to exploit your invention. If it does
-                not, it gives you the right to take legal action to stop them exploiting
-            your invention and to claim damages.</p>
-            <p>●The patent also allows you to:
-                sell the invention and all the intellectual property (IP) rights
-                license the invention to someone else but retain all the IP rights
-                discuss the invention with others in order to set up a business
-            based around the invention.</p>
+<div id="topic2">
+ <h4 style="text-align:center;">THE ADVANTAGES OF REGISTRATION OF COMPANY</h4>
+ <!-- Start title section -->
+ <div class="title">
+     <!-- <h1 style="text-align:center; color: #ffb900;">What We Do ?</h1> -->
+     <!-- Section's title goes here -->
+     <p  style="text-align:center;"> Setup & Delivered 2,00,000 + New Companies and Business Licenses for MSMEs in India and continuing…</p>
+     <!--Simple description for section goes here. -->
+ </div>
+ <!-- <div class="row"> -->
+   <br>
+   <div class="row">
+
+     <!-- <div class="container"> -->
+
+      <div class="container">
+
+          <div class="row line" style="margin-bottom: 50px;">
+              <div class="col-md-3 col-sm-12">
+                  <div class=" card11 text-center">
+                      <!-- <div class="oval"><img class="card-img-top" src="images1/isoRg.png" alt=""></div> -->
+                      <div class="card-body">
+                          <h3 class="card-title">BORROWING CAPACITY</h3>
+                          <h6 class="card-title">A company enjoys better avenues for borrowing of funds. It can issue debentures,
+secured as well as unsecured, accept deposits from the public, etc.</h6>
+
+                      </div>
+                  </div>
+              </div>  
+              <div class="col-md-3 col-sm-12">
+                  <div class="card11 text-center" >
+
+                    <!-- <a href="#" target="_blank" style="text-decoration: none;" rel="noopener"> -->
+                      <div class="card-body">
+                          <h3 class="card-title">TAXATION</h3>
+                          <h6 class="card-title">There is a wider range of allowances and tax deductible costs that can be offset
+against company's profits.</h6>  
+                      </div>
+                                      <!-- <h5 class="txtshadow zoom-in">TRADEMARK REGISTRATION</h5>
+                                      <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
+                                      eget.</p> -->
+                                      <!-- </a>   -->
+                                  </div>
+                              </div>  
+
+
+                              <div class="col-md-3 col-sm-12">
+                                  <div class="card11 text-center" >
+                                      <div class="card-body">
+                                          <h3 class="card-title">RAISING MONEY FROM PUBLIC</h3>
+                                          <h6 class="card-title">Limited liability conferred
+upon the company's directors and shareholders.<br>A sole trader or partnership
+business, personal assets of the proprietor or partners can be at risk in the event of a failure
+of the business, but this is not the case for a Company.</h6>  
+                                      </div>           
+                                  </div>
+                              </div>
+
+
+                              <div class="col-md-3 col-sm-12">
+                                  <div class="card11 text-center" >
+                                      <div class="card-body">
+                                          <h3 class="card-title">LIMITED LIABILITY LEGAL ENTITY OR RECOGNITION</h3>
+                                          <h6 class="card-title">Easy transferability of business and ownership also helps in attracting venture
+capital funding for new business ventures.</h6>  
+                                      </div>           
+                                  </div>                        
+                              </div>
+
+                              <div class="col-md-3 col-sm-12">
+                                  <div class="card11 text-center" >
+                                      <div class="card-body">
+                                          <h3 class="card-title">DUAL RELATIONSHIP</h3>
+                                          <h6 class="card-title">It is also possible for
+a person to be in control of a company and at the same time be in its employment. Thus, a
+person can at the same time be a shareholder, director,
+creditor and employee of the company.</h6>  
+                                      </div>           
+                                  </div>  
+                              </div>
+
+                              
+
+
+                          </div>
+                      </div>
+                      <!-- </div> -->
+
+                  </div>
+              </div>
+          <div id="topic3">
+            
         </div>
     </div>
     <div class="col-lg-3">  </div>
+</div>
 </div>    
-<!-- </div>   -->
+ 
+
+
 <br><br><br>
 <div class="row-fluid">
-    <div class="container-fluid">
+    <div class="container-fluid" style="display: flex; " >
         <!-- <div class="col-lg-6 col-sm-6"></div> -->
-            <h3 style="text-align: center;">Patent Registratoin Process</h3>
-        <div class="col-lg-12 col-sm-6">
-            <img src="images1/patentProcess.png" alt=""></div>
-         </div>
-</div>                                                                   
+        <div class="col-lg-6 col-sm-6">
+            <h3 style="text-align: center;">Procedure for registration of a logo / monogram </h3>
+            <img src="images1/patentProcess.png" alt="">
+        </div>
+        <div class="col-lg-6 col-sm-6">
+            <h3 style="text-align: center;">Procedure for registration of Software / Home page / Web Content
+                / Book / any Literary Material / logo / monogram for service
+            Industries : </h3>
+            <img src="images1/patentProcess.png" alt="">
+        </div>
+    </div>
+</div>
+
 
 <footer class="container-fluid" id="gtco-footer">
  <div class="container">

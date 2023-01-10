@@ -47,7 +47,7 @@
 
             <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
             <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
-<!--  -->
+            <!--  -->
             <!-- <link rel="stylesheet" href="css1/bootstrap.min.css"> -->
 
             <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -242,101 +242,101 @@ $light: #fff;
 }*/
 
 .grid {
-   list-style: none;
-   margin-left: -40px;
+ list-style: none;
+ margin-left: -40px;
 }
 
 .gc {
-   box-sizing: border-box;
-   display: inline-block;
-   margin-right: -.25em;
-   min-height: 1px;
-   padding-left: 40px;
-   vertical-align: top;
+ box-sizing: border-box;
+ display: inline-block;
+ margin-right: -.25em;
+ min-height: 1px;
+ padding-left: 40px;
+ vertical-align: top;
 }
 
 .gc--1-of-3 {
-   width: 33.33333%;
+ width: 33.33333%;
 }
 
 .gc--2-of-3 {
-   width: 66.66666%;
+ width: 66.66666%;
 }
 
 .naccs {
-   position: relative;
-   max-width: 900px;
-   margin: 100px auto 0;
+ position: relative;
+ max-width: 900px;
+ margin: 100px auto 0;
 }
 
 .naccs .menu div {
-   padding: 15px 20px 15px 40px;
-   margin-bottom: 10px;
-   color: $base-color;
-   background: $second-color;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-   cursor: pointer;
-   position: relative;
-   vertical-align: middle;
-   font-weight: 700;
-   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+ padding: 15px 20px 15px 40px;
+ margin-bottom: 10px;
+ color: $base-color;
+ background: $second-color;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+ cursor: pointer;
+ position: relative;
+ vertical-align: middle;
+ font-weight: 700;
+ transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .naccs .menu div:hover {
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .naccs .menu div span.light {
-   height: 10px;
-   width: 10px;
-   position: absolute;
-   top: 24px;
-   left: 15px;
-   background-color: $base-color;
-   border-radius: 100%;
-   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+ height: 10px;
+ width: 10px;
+ position: absolute;
+ top: 24px;
+ left: 15px;
+ background-color: $base-color;
+ border-radius: 100%;
+ transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .naccs .menu div.active span.light {
-   background-color: $third-color;
-   left: 0;
-   height: 100%;
-   width: 3px;
-   top: 0;
-   border-radius: 0;
+ background-color: $third-color;
+ left: 0;
+ height: 100%;
+ width: 3px;
+ top: 0;
+ border-radius: 0;
 }
 
 .naccs .menu div.active {
-   color: $third-color;
-   padding: 15px 20px 15px 20px;
+ color: $third-color;
+ padding: 15px 20px 15px 20px;
 }
 
 ul.nacc {
-   position: relative;
-   height: 0px;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+ position: relative;
+ height: 0px;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 ul.nacc li {
-   opacity: 0;
-   transform: translateX(50px);
-   position: absolute;
-   list-style: none;
-   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+ opacity: 0;
+ transform: translateX(50px);
+ position: absolute;
+ list-style: none;
+ transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 ul.nacc li.active {
-   transition-delay: .3s;
-   z-index: 2;
-   opacity: 1;
-   transform: translateX(0px);
+ transition-delay: .3s;
+ z-index: 2;
+ opacity: 1;
+ transform: translateX(0px);
 }
 
 ul.nacc li p {
-   margin: 0;
+ margin: 0;
 }
 
 
@@ -466,15 +466,15 @@ html {
                         }
 
                         .card11:hover{
-                           transform: scale(1.15);
-                           box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-                       }
+                         transform: scale(1.15);
+                         box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+                     }
 
-                       .card11 h3{
-                          display: flex;
-                          justify-content: center;
-                          align-content: center;
-                          align-items: center;
+                     .card11 h3{
+                      display: flex;
+                      justify-content: center;
+                      align-content: center;
+                      align-items: center;
 /*                          font-weight: 600;*/
 font-family: "Lato-Regular";
 font-size: 24px;
@@ -1097,13 +1097,13 @@ color: rgba(252,200,19,1);
                         entities.</p>
                         <a href="#" class="da-link button">Read more</a>
                         <div class="da-img">
-                           <!-- <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a> -->
-                           <img src="images/3d.png" alt="image01" width="320">
-                       </div>
-                   </div> 
-                   <!-- End first slide -->
-                   <!-- Start second slide -->
-                   <div class="da-slide">
+                         <!-- <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a> -->
+                         <img src="images/3d.png" alt="image01" width="320">
+                     </div>
+                 </div> 
+                 <!-- End first slide -->
+                 <!-- Start second slide -->
+                 <div class="da-slide">
                     <h2>Copyright</h2>
                     <!-- <h4>Copyright</h4> -->
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -1394,7 +1394,7 @@ color: rgba(252,200,19,1);
 
 
 <style type="text/css">
- .menu div {
+   .menu div {
     padding: 15px 20px 15px 40px;
     margin-bottom: 10px;
     color: #000;
@@ -1413,7 +1413,7 @@ color: rgba(252,200,19,1);
 }
 
 .menu div:hover {
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .menu div span.light {
@@ -1459,131 +1459,143 @@ color: rgba(252,200,19,1);
 </style>
 <br><br><br>
 <div class="row-fluid content">   
- <div class="container-fluid" style="display: flex;" >    
+   <div class="container-fluid" style="display: flex;" >    
     <div class="col-lg-3 col-sm-6"> 
         <div class="menu" id="menu"style="position: sticky; top: 60px;" >
             <a href="#topic1" style="text-decoration: none;" >
-                <div class="list"><span class="light"></span><span>Patent</span></div>
+                <div class="list"><span class="light"></span><span>Copyright Registration</span></div>
             </a>
             <a href="#topic2" style="text-decoration: none;">
-                <div class="list"><span class="light"></span><span>Importance Of Patent</span></div>
+                <div class="list"><span class="light"></span><span>Types of Copyright</span></div>
             </a>
             <a href="#topic3" style="text-decoration: none;">
-                <div class="list"><span class="light"></span><span>Benefits Of Patent</span></div>
+                <div class="list"><span class="light"></span><span>Importance and Advantages of Copyright</span></div>
             </a>
 
         </div> 
     </div>
     <div class="col-lg-6">
         <div id="topic1">
-            <h4>What is Patent ? </h4>
-            <p>Patent is a major part of Intellectual Property which grants its
-                inventor, the right of exploiting its object exclusively, during a given
-            time period.</p>
+            <h4>What is Copyright Registration ? </h4>
+            <p>Copyright is a legal concept, enacted by most governments, giving
+                the creator of an original work exclusive rights to it, usually for a
+            limited time.</p>
+            <p>Generally, it is "the right to copy", but also gives the
+                copyright holder the right to be credited for the work, to determine
+                who may adapt the work to other forms, who may perform the work,
+            who may financially benefit from it, and other related rights. </p>
+            <p>It is an
+                intellectual property form (like the patent, the trademark, and the
+                trade secret) applicable to any expressible form of an idea or
+            information that is substantive and discrete.</p>
             
         </div>
-
         <div id="topic2">
-            <h4>Importance Of Patent</h4>
-            <p>It helps in stimulating the development of new technologies and
-                also guarantees the investor's exploitation rights. It also promotes
-                new era and various modifications required in the existing systems
-            and process.</p>
-            <p>The patent provides the user exclusive rights over his
-                object; and this right is ultimately incorporated to the assets of a
-                company. It is really helpful to the company for defining market
-            strategies needed to hit the public target.</p>
-            <p>However, patent rights
-                are granted, only on the fulfillment of some requirements such as:
-                Industrial applicability, inventive act and novelty with regard to the
-            technological knowledge already disclosed.</p><p>Due to the creative
-                efforts in the technical field, the inventor who opts for Patent
-                Registration also holds the temporary exploitation monopoly of his
-            creation; which ultimately guarantees him a sort of market reserve.</p>
-        </div><div id="topic3">
-            <h4>Benefits Of Patent</h4>
-            <p>● A patent gives you the right to stop others from copying,
-                manufacturing, selling, and importing your invention without your
-                permission. The existence of your patent may be enough on its
-                own to stop others from trying to exploit your invention. If it does
-                not, it gives you the right to take legal action to stop them exploiting
-            your invention and to claim damages.</p>
-            <p>●The patent also allows you to:
-                sell the invention and all the intellectual property (IP) rights
-                license the invention to someone else but retain all the IP rights
-                discuss the invention with others in order to set up a business
-            based around the invention.</p>
+            <h4> Types of Copyright </h4>
+            <p> ● Artistic Work (Manufacturing and Service Industry logos / labels /
+            symbols / packaging)</p>
+            <p> ● Literary Work (Books, magazines, concepts, business
+            plans/ideas, scripts)</p>
+            <p> ● Software Content (Software languages, contents, programming
+            files)</p>
+            <p> ● Web Contents (Website pages, website content)</p>
+            <p> ● Dramatic and Musical Work</p>
+            <p> ● Cinematographic Films</p>
+            <p> ● Photographs and paintings.</p>
+        </div>
+        <div id="topic3">
+            <h4>Importance and Advantages of Copyright</h4>
+            <p>Copyright is a major part of Intellectual property where one can
+                claim exclusive rights over the created identity which may be in any
+                above mentioned form.</p>
+            <p>Several exclusive rights typically attach to the holder of a copyright : </p>
+            <p>● to produce copies or reproductions of the work and to sell those
+                copies (including, typically, electronic copies/online) </p>
+            <p> ● to import or export the work </p>
+            <p> ● to create derivative works (works that adapt the original work) </p>
+            <p> ● to perform or display the work publicly</p>
+            <p> ● to sell or assign these rights to others</p>
+            <p> ● to advertise or display by radio/video/online</p>
+            <p> Copyright Registration acts as a strong legal tool to ovoid the
+infringe-ment and fraudal use of the Copyrighted work. </p>
         </div>
     </div>
     <div class="col-lg-3">  </div>
 </div>    
-<!-- </div>   -->
+</div>  
 <br><br><br>
 <div class="row-fluid">
-    <div class="container-fluid">
+    <div class="container-fluid" style="display: flex; " >
         <!-- <div class="col-lg-6 col-sm-6"></div> -->
-            <h3 style="text-align: center;">Patent Registratoin Process</h3>
-        <div class="col-lg-12 col-sm-6">
-            <img src="images1/patentProcess.png" alt=""></div>
+        <div class="col-lg-6 col-sm-6">
+            <h3 style="text-align: center;">Procedure for registration of a logo / monogram </h3>
+            <img src="images1/patentProcess.png" alt="">
+        </div>
+        <div class="col-lg-6 col-sm-6">
+            <h3 style="text-align: center;">Procedure for registration of Software / Home page / Web Content
+            / Book / any Literary Material / logo / monogram for service
+            Industries : </h3>
+            <img src="images1/patentProcess.png" alt="">
          </div>
+    </div>
 </div>                                                                   
 
-<footer class="container-fluid" id="gtco-footer">
- <div class="container">
-     <div class="row">
-         <div class="col-lg-6" id="contact">
-             <h4> Contact Us </h4>
-             <input type="text" class="form-control" placeholder="Full Name">
-             <input type="email" class="form-control" placeholder="Email Address">
-             <textarea class="form-control" placeholder="Message"></textarea>
-             <a href="#" class="submit-button">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-         </div>
-         <div class="col-lg-6">
-             <div class="row">
-                 <div class="col-6">
-                     <h4>Company</h4>
-                     <ul class="nav flex-column company-nav">
-                         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                         <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                         <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                         <li class="nav-item"><a class="nav-link" href="#">FAQ's</a></li>
-                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                     </ul>
-                     <h4 class="mt-5">Fllow Us</h4>
-                     <ul class="nav follow-us-nav">
-                         <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook"
-                           aria-hidden="true"></i></a></li>
-                           <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"
-                              aria-hidden="true"></i></a></li>
-                              <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-google"
+    <footer class="container-fluid" id="gtco-footer">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-6" id="contact">
+                   <h4> Contact Us </h4>
+                   <input type="text" class="form-control" placeholder="Full Name">
+                   <input type="email" class="form-control" placeholder="Email Address">
+                   <textarea class="form-control" placeholder="Message"></textarea>
+                   <a href="#" class="submit-button">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+               </div>
+               <div class="col-lg-6">
+                   <div class="row">
+                       <div class="col-6">
+                           <h4>Company</h4>
+                           <ul class="nav flex-column company-nav">
+                               <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                               <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                               <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                               <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                               <li class="nav-item"><a class="nav-link" href="#">FAQ's</a></li>
+                               <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                           </ul>
+                           <h4 class="mt-5">Fllow Us</h4>
+                           <ul class="nav follow-us-nav">
+                               <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook"
+                                 aria-hidden="true"></i></a></li>
+                                 <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"
                                   aria-hidden="true"></i></a></li>
-                                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"
+                                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-google"
                                       aria-hidden="true"></i></a></li>
-                                  </ul>
-                              </div>
-                              <div class="col-6">
-                                 <h4>Services</h4>
-                                 <ul class="nav flex-column services-nav">
-                                     <li class="nav-item"><a class="nav-link" href="#">Trademark Registration</a></li>
-                                     <li class="nav-item"><a class="nav-link" href="#">Copyright Registration</a></li>
-                                     <li class="nav-item"><a class="nav-link" href="#">Design Registration</a></li>
-                                     <li class="nav-item"><a class="nav-link" href="#">Patent Registration</a></li>
-                                     <li class="nav-item"><a class="nav-link" href="#">ISO Registration</a></li>
-                                     <li class="nav-item"><a class="nav-link" href="#">Formation OF Company</a></li>
-                                     <li class="nav-item"><a class="nav-link" href="#">Web Servieces</a></li>
-                                     <li class="nav-item"><a class="nav-link" href="#">Branding Services</a></li>
-                                     <li class="nav-item"><a class="nav-link" href="#">Other Registration Services</a></li>
-                                 </ul>
-                             </div>
-                             <div class="col-12">
-                                 <p>&copy; 2023. All Rights Reserved.</p>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </footer>
+                                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"
+                                          aria-hidden="true"></i></a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-6">
+                                   <h4>Services</h4>
+                                   <ul class="nav flex-column services-nav">
+                                       <li class="nav-item"><a class="nav-link" href="#">Trademark Registration</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Copyright Registration</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Design Registration</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Patent Registration</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">ISO Registration</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Formation OF Company</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Web Servieces</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Branding Services</a></li>
+                                       <li class="nav-item"><a class="nav-link" href="#">Other Registration Services</a></li>
+                                   </ul>
+                               </div>
+                               <div class="col-12">
+                                   <p>&copy; 2023. All Rights Reserved.</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </footer>
 
 
 
@@ -1712,9 +1724,9 @@ color: rgba(252,200,19,1);
             <!--[if lt IE 9]>
                 <script src="js/respond.min.js"></script>
             <![endif]-->
-               <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+             <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
 
-               <script type="text/javascript" src="js/app.js"></script>
+             <script type="text/javascript" src="js/app.js"></script>
 
            <!--     <script src="dropdown-19/js/jquery-3.3.1.min.js"></script>
                <script src="dropdown-19/js/popper.min.js"></script>
@@ -1724,257 +1736,257 @@ color: rgba(252,200,19,1);
 
 
                <script type="text/javascript">
-                   (function($) {
-                       'use strict';
+                 (function($) {
+                     'use strict';
 
-                       jQuery(document).on('ready', function(){
+                     jQuery(document).on('ready', function(){
 
-                           $('a.page-scroll').on('click', function(e){
-                               var anchor = $(this);
-                               $('html, body').stop().animate({
-                                   scrollTop: $(anchor.attr('href')).offset().top - 50
-                               }, 1500);
-                               e.preventDefault();
-                           });     
+                         $('a.page-scroll').on('click', function(e){
+                             var anchor = $(this);
+                             $('html, body').stop().animate({
+                                 scrollTop: $(anchor.attr('href')).offset().top - 50
+                             }, 1500);
+                             e.preventDefault();
+                         });     
 
-                       });                       
-                   })(jQuery);
-               </script>
+                     });                       
+                 })(jQuery);
+             </script>
 
-               <script type="text/javascript">
+             <script type="text/javascript">
                // Acc
-                 $(document).on("click", ".naccs .menu div", function() {
-                    var numberIndex = $(this).index();
+               $(document).on("click", ".naccs .menu div", function() {
+                var numberIndex = $(this).index();
 
-                    if (!$(this).is("active")) {
-                        $(".naccs .menu div").removeClass("active");
-                        $(".naccs ul li").removeClass("active");
+                if (!$(this).is("active")) {
+                    $(".naccs .menu div").removeClass("active");
+                    $(".naccs ul li").removeClass("active");
 
-                        $(this).addClass("active");
-                        $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+                    $(this).addClass("active");
+                    $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
 
-                        var listItemHeight = $(".naccs ul")
-                        .find("li:eq(" + numberIndex + ")")
-                        .innerHeight();
-                        $(".naccs ul").height(listItemHeight + "px");
+                    var listItemHeight = $(".naccs ul")
+                    .find("li:eq(" + numberIndex + ")")
+                    .innerHeight();
+                    $(".naccs ul").height(listItemHeight + "px");
+                }
+            });
+        </script> 
+
+
+        <script type="text/javascript">
+            class FibonacciSphere {
+                #points;
+
+                get points() {
+                    return this.#points;
+                }
+
+                constructor(N) {
+                    this.#points = [];
+
+                    const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+
+                    for (let i = 0; i < N; i++) {
+                        const y = 1 - (i / (N - 1)) * 2;
+                        const radius = Math.sqrt(1 - y ** 2);
+                        const a = goldenAngle * i;
+                        const x = Math.cos(a) * radius;
+                        const z = Math.sin(a) * radius;
+
+                        this.#points.push([x, y, z]);
                     }
-                });
-            </script> 
+                }
+            }
 
 
-            <script type="text/javascript">
-                class FibonacciSphere {
-                    #points;
+            class TagsCloud {
+                #root;
+                #size;
+                #sphere;
+                #tags;
+                #rotationAxis;
+                #rotationAngle;
+                #rotationSpeed;
+                #frameRequestId;
 
-                    get points() {
-                        return this.#points;
+                constructor(root) {
+                    this.#root = root;
+                    this.#size = this.#root.offsetWidth;
+                    this.#tags = root.querySelectorAll('.tag');
+                    this.#sphere = new FibonacciSphere(this.#tags.length);
+                    this.#rotationAxis = [1, 0, 0];
+                    this.#rotationAngle = 0;
+                    this.#rotationSpeed = 0;
+
+                    this.#updatePositions();
+                    this.#initEventListeners();
+                    this.#root.classList.add('-loaded');
+                }
+
+                #initEventListeners() {
+                    window.addEventListener('resize', this.#updatePositions.bind(this));
+                    document.addEventListener('mousemove', this.#onMouseMove.bind(this));
+                }
+
+                #updatePositions() {
+                    const sin = Math.sin(this.#rotationAngle);
+                    const cos = Math.cos(this.#rotationAngle);
+                    const ux = this.#rotationAxis[0];
+                    const uy = this.#rotationAxis[1];
+                    const uz = this.#rotationAxis[2];
+
+                    const rotationMatrix = [
+                        [
+                            cos + (ux ** 2) * (1 - cos),
+                            ux * uy * (1 - cos) - uz * sin,
+                            ux * uz * (1 - cos) + uy * sin,
+                            ],
+                        [
+                            uy * ux * (1 - cos) + uz * sin,
+                            cos + (uy ** 2) * (1 - cos),
+                            uy * uz * (1 - cos) - ux * sin,
+                            ],
+                        [
+                            uz * ux * (1 - cos) - uy * sin,
+                            uz * uy * (1 - cos) + ux * sin,
+                            cos + (uz ** 2) * (1 - cos)
+                            ]
+                        ];
+
+                    const N = this.#tags.length;
+
+                    for (let i = 0; i < N; i++) {
+                        const x = this.#sphere.points[i][0];
+                        const y = this.#sphere.points[i][1];
+                        const z = this.#sphere.points[i][2];
+
+                        const transformedX =
+                        rotationMatrix[0][0] * x
+                        + rotationMatrix[0][1] * y
+                        + rotationMatrix[0][2] * z;
+                        const transformedY =
+                        rotationMatrix[1][0] * x
+                        + rotationMatrix[1][1] * y
+                        + rotationMatrix[1][2] * z;
+                        const transformedZ =
+                        rotationMatrix[2][0] * x
+                        + rotationMatrix[2][1] * y
+                        + rotationMatrix[2][2] * z;
+
+                        const translateX = this.#size * transformedX / 2;
+                        const translateY = this.#size * transformedY / 2;
+                        const scale = (transformedZ + 2) / 3;
+                        const transform =
+                        `translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
+                        const opacity = (transformedZ + 1.5) / 2.5;
+
+                        this.#tags[i].style.transform = transform;
+                        this.#tags[i].style.opacity = opacity;
                     }
+                }
 
-                    constructor(N) {
-                        this.#points = [];
+                #onMouseMove(e) {
+                    const rootRect = this.#root.getBoundingClientRect();
+                    const deltaX = e.clientX - (rootRect.left + this.#root.offsetWidth / 2);
+                    const deltaY = e.clientY - (rootRect.top + this.#root.offsetHeight / 2);
+                    const a = Math.atan2(deltaX, deltaY) - Math.PI / 2;
+                    const axis = [Math.sin(a), Math.cos(a), 0];
+                    const delta = Math.sqrt(deltaX ** 2 + deltaY ** 2);
+                    const speed = delta / Math.max(window.innerHeight, window.innerWidth) / 10;
 
-                        const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+                    this.#rotationAxis = axis;
+                    this.#rotationSpeed = speed;
+                }
 
-                        for (let i = 0; i < N; i++) {
-                            const y = 1 - (i / (N - 1)) * 2;
-                            const radius = Math.sqrt(1 - y ** 2);
-                            const a = goldenAngle * i;
-                            const x = Math.cos(a) * radius;
-                            const z = Math.sin(a) * radius;
+                #update() {
+                    this.#rotationAngle += this.#rotationSpeed;
 
-                            this.#points.push([x, y, z]);
+                    this.#updatePositions();
+                }
+
+                start() {
+                    this.#update();
+
+                    this.#frameRequestId = requestAnimationFrame(this.start.bind(this));
+                }
+
+                stop() {
+                    cancelAnimationFrame(this.#frameRequestId);
+                }
+            }
+
+
+            function main() {
+                {
+                    const root = document.querySelector('.tags-cloud');
+                    const cloud = new TagsCloud(root);
+
+                    cloud.start();
+                }
+
+                {
+                    const cursor = document.getElementById('cursor');
+                    const isActivated = false;
+
+                    document.addEventListener('mousemove', (e) => {
+                        if (!isActivated) {
+                            cursor.classList.add('-activated');
                         }
-                    }
+
+                        cursor.style.transform =
+                        `translateX(${e.clientX}px) translateY(${e.clientY}px)`;
+                    });
                 }
+            }
 
 
-                class TagsCloud {
-                    #root;
-                    #size;
-                    #sphere;
-                    #tags;
-                    #rotationAxis;
-                    #rotationAngle;
-                    #rotationSpeed;
-                    #frameRequestId;
+            document.addEventListener('DOMContentLoaded', () => {
+                main();
+            });
 
-                    constructor(root) {
-                        this.#root = root;
-                        this.#size = this.#root.offsetWidth;
-                        this.#tags = root.querySelectorAll('.tag');
-                        this.#sphere = new FibonacciSphere(this.#tags.length);
-                        this.#rotationAxis = [1, 0, 0];
-                        this.#rotationAngle = 0;
-                        this.#rotationSpeed = 0;
+        </script>    
 
-                        this.#updatePositions();
-                        this.#initEventListeners();
-                        this.#root.classList.add('-loaded');
-                    }
+        <!-- <script src="https://code.jquery.com/jquery-3.6.1.js"></script> -->
+        <!-- <script src="assets/js/jquery-1.9.1.min.js"></script> -->
+        <script type="text/javascript">
+          $(document).ready(function(){
+           $('.list').click(function(){
+              const value = $(this).attr('data-filter');
+              if(value == 'all'){
+                  $('.itemBox').show('1000');
+              }
+              else{
+                  $('.itemBox').not('.'+value).hide('1000');
+                  $('.itemBox').filter('.'+value).show('1000');
+              }
+          }); 
 
-                    #initEventListeners() {
-                        window.addEventListener('resize', this.#updatePositions.bind(this));
-                        document.addEventListener('mousemove', this.#onMouseMove.bind(this));
-                    }
+           $('.list').click(function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+       });
+   </script>
+   <script src="js1/jquery-3.3.1.slim.min.js"></script>
+   <script src="js1/popper.min.js"></script>
+   <script src="owl-carousel/owl.carousel.min.js"></script>
+   <script src="js1/bootstrap.min.js"></script>
+   <script src="js1/main.js"></script>
 
-                    #updatePositions() {
-                        const sin = Math.sin(this.#rotationAngle);
-                        const cos = Math.cos(this.#rotationAngle);
-                        const ux = this.#rotationAxis[0];
-                        const uy = this.#rotationAxis[1];
-                        const uz = this.#rotationAxis[2];
+   <script>window.onscroll = function() {
+      stickyHeader();
+  };
 
-                        const rotationMatrix = [
-                            [
-                                cos + (ux ** 2) * (1 - cos),
-                                ux * uy * (1 - cos) - uz * sin,
-                                ux * uz * (1 - cos) + uy * sin,
-                                ],
-                            [
-                                uy * ux * (1 - cos) + uz * sin,
-                                cos + (uy ** 2) * (1 - cos),
-                                uy * uz * (1 - cos) - ux * sin,
-                                ],
-                            [
-                                uz * ux * (1 - cos) - uy * sin,
-                                uz * uy * (1 - cos) + ux * sin,
-                                cos + (uz ** 2) * (1 - cos)
-                                ]
-                            ];
+  var header = document.getElementById("header");
+  var sticky = header.offsetTop;
 
-                        const N = this.#tags.length;
-
-                        for (let i = 0; i < N; i++) {
-                            const x = this.#sphere.points[i][0];
-                            const y = this.#sphere.points[i][1];
-                            const z = this.#sphere.points[i][2];
-
-                            const transformedX =
-                            rotationMatrix[0][0] * x
-                            + rotationMatrix[0][1] * y
-                            + rotationMatrix[0][2] * z;
-                            const transformedY =
-                            rotationMatrix[1][0] * x
-                            + rotationMatrix[1][1] * y
-                            + rotationMatrix[1][2] * z;
-                            const transformedZ =
-                            rotationMatrix[2][0] * x
-                            + rotationMatrix[2][1] * y
-                            + rotationMatrix[2][2] * z;
-
-                            const translateX = this.#size * transformedX / 2;
-                            const translateY = this.#size * transformedY / 2;
-                            const scale = (transformedZ + 2) / 3;
-                            const transform =
-                            `translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
-                            const opacity = (transformedZ + 1.5) / 2.5;
-
-                            this.#tags[i].style.transform = transform;
-                            this.#tags[i].style.opacity = opacity;
-                        }
-                    }
-
-                    #onMouseMove(e) {
-                        const rootRect = this.#root.getBoundingClientRect();
-                        const deltaX = e.clientX - (rootRect.left + this.#root.offsetWidth / 2);
-                        const deltaY = e.clientY - (rootRect.top + this.#root.offsetHeight / 2);
-                        const a = Math.atan2(deltaX, deltaY) - Math.PI / 2;
-                        const axis = [Math.sin(a), Math.cos(a), 0];
-                        const delta = Math.sqrt(deltaX ** 2 + deltaY ** 2);
-                        const speed = delta / Math.max(window.innerHeight, window.innerWidth) / 10;
-
-                        this.#rotationAxis = axis;
-                        this.#rotationSpeed = speed;
-                    }
-
-                    #update() {
-                        this.#rotationAngle += this.#rotationSpeed;
-
-                        this.#updatePositions();
-                    }
-
-                    start() {
-                        this.#update();
-
-                        this.#frameRequestId = requestAnimationFrame(this.start.bind(this));
-                    }
-
-                    stop() {
-                        cancelAnimationFrame(this.#frameRequestId);
-                    }
-                }
-
-
-                function main() {
-                    {
-                        const root = document.querySelector('.tags-cloud');
-                        const cloud = new TagsCloud(root);
-
-                        cloud.start();
-                    }
-
-                    {
-                        const cursor = document.getElementById('cursor');
-                        const isActivated = false;
-
-                        document.addEventListener('mousemove', (e) => {
-                            if (!isActivated) {
-                                cursor.classList.add('-activated');
-                            }
-
-                            cursor.style.transform =
-                            `translateX(${e.clientX}px) translateY(${e.clientY}px)`;
-                        });
-                    }
-                }
-
-
-                document.addEventListener('DOMContentLoaded', () => {
-                    main();
-                });
-
-            </script>    
-
-            <!-- <script src="https://code.jquery.com/jquery-3.6.1.js"></script> -->
-            <!-- <script src="assets/js/jquery-1.9.1.min.js"></script> -->
-            <script type="text/javascript">
-              $(document).ready(function(){
-                 $('.list').click(function(){
-                  const value = $(this).attr('data-filter');
-                  if(value == 'all'){
-                      $('.itemBox').show('1000');
-                  }
-                  else{
-                      $('.itemBox').not('.'+value).hide('1000');
-                      $('.itemBox').filter('.'+value).show('1000');
-                  }
-              }); 
-
-                 $('.list').click(function(){
-                    $(this).addClass('active').siblings().removeClass('active');
-                });
-             });
-         </script>
-         <script src="js1/jquery-3.3.1.slim.min.js"></script>
-         <script src="js1/popper.min.js"></script>
-         <script src="owl-carousel/owl.carousel.min.js"></script>
-         <script src="js1/bootstrap.min.js"></script>
-         <script src="js1/main.js"></script>
-
-         <script>window.onscroll = function() {
-          stickyHeader();
-      };
-
-      var header = document.getElementById("header");
-      var sticky = header.offsetTop;
-
-      function stickyHeader() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
+  function stickyHeader() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
     }
+}
 
 </script>
 

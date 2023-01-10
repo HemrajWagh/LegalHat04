@@ -561,7 +561,7 @@ p {
   margin-bottom: -1px;
 }
 .gtco-testimonials .card {
-  background: #fff;
+/*  background: #fff;*/
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.08);
   margin: 0 30px;
   padding: 0 20px;
@@ -856,6 +856,15 @@ height: 85vh;
 {
     #parallex2{
     height: 100vh;
+    }
+
+}
+
+@media(max-width: 420px)
+{
+    .content div.container-fluid{
+        display: flex;
+        flex-direction: column;
     }
 
 }
